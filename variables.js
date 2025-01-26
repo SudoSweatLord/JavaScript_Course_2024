@@ -1,3 +1,4 @@
+//primitive types
 let firstName = "Steven",
   lastName = "Garcia";
 let message = "Hello";
@@ -8,6 +9,7 @@ let veryLargeNumber = 45544554252563434n;
 let boolean = true;
 let explicitlyNoValue = null;
 let symbolTheFuckIsThisReferenceShitUsedFor = Symbol();
+//Not primitive but reference type
 let objectLiteral = {
     name:"Javascript for beginners",
     hours: 3
