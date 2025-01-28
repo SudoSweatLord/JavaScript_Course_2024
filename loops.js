@@ -19,3 +19,9 @@ while (true) {
   sum++;
   if (sum === 6) break;
 }
+//is executed at least once
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 0);
