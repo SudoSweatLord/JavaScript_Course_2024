@@ -69,6 +69,15 @@ do {
 } while (i < 10);
 
 //Breakdown
+/*When to Use:
+
+for: Best for fixed-length iterations.
+while: Use when the number of iterations is uncertain.
+do...while: When at least one execution is guaranteed.
+for...of: Preferred for iterable collections.
+for...in: Useful for objects, but be cautious with inherited properties.
+forEach(): Clean and readable way to loop through arrays.*/
+
 // 1. for Loop
 
 //     Use Case: When you need precise control over iteration, such as:
