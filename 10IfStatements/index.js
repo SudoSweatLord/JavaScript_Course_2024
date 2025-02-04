@@ -37,11 +37,12 @@ const myText = document.getElementById("myText");
 const mySubmit = document.getElementById("mySubmit");
 const resultElement = document.getElementById("resultElement");
 let age;
-mySubmit.onclick = function (){
- age = myText.value
- age = Number(age)
-if (age >= 18) {
-  resultElement.textContent = "You are old enough to enter this site";
-} else {
+mySubmit.onclick = function () {
+  age = myText.value;
+  age = Number(age);
+  if (age >= 18) {
+    resultElement.textContent = "You are old enough to enter this site";
+  } else {
     resultElement.textContent = "You must be 18 plus to enter this site";
-}}
+  }
+};
