@@ -11,3 +11,5 @@ let job = "Software Developer";
 if (job === "Software Developer") {
   console.log("writes code");
 }
+
+//loops
