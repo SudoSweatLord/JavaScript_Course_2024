@@ -1,6 +1,6 @@
 variable = container that stores a value
 
-1. declaration
+1. declaration (variable is without assignment undefined)
    ```
    let x;
    ```
