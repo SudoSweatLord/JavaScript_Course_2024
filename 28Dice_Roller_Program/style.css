@@ -1,4 +1,39 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+button {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(240, 100%, 50%);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: hsl(240, 93%, 72%);
+}
+button:active {
+  background-color: hsl(240, 93%, 72%);
+}
+
+input {
+  font-size: 2rem;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+}
+
+img {
+  width: 10vw;
+  height: auto;
+  padding: 1vw;
 }
