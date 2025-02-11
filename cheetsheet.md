@@ -72,3 +72,8 @@ let set = new Set([1, 2, 3]);
 ```
 
 Special Types TBRS
+
+Ternary Operator
+
+- shortcut to if{}else{} statements helps to assign a variable based on a condition
+- condition ? codeIfTrue : codeIfFalse;
