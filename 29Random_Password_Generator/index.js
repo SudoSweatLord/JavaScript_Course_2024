@@ -15,23 +15,25 @@ function generatePassword(
   allowedChars += includeUppercase ? uppercaseChars : "";
   allowedChars += includeNumbers ? numberChars : "";
   allowedChars += includeSymbols ? symbolChars : "";
-  console.log(allowedChars);
 
-  return "";
+  if (passwordLength <= 0) {
+    return `(password length must be at least 1)`;
+  }
+  if (allowedChars.length === 0) {
+    return `(At least 1 set of characters needs to be selected)`;
+  }
+
+  for (let i = 0; i < passwordLength; i++) {
+    const randomIndex = Math.floor(Math.random() * allowedChars.length);
+    password += allowedChars[randomIndex];
+  }
+  return password;
 }
-const passwordLength = 12;
+const passwordLength = 10;
 const includeLowercase = true;
 const includeUppercase = true;
 const includeNumbers = true;
 const includeSymbols = true;
-
-generatePassword(
-  passwordLength,
-  includeLowercase,
-  includeUppercase,
-  includeNumbers,
-  includeSymbols
-);
 
 const password = generatePassword(
   passwordLength,
