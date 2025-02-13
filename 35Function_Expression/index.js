@@ -1,6 +1,10 @@
 //function declaration = define a reusable block of code
 
 //function expressions = a way to define functions as values or variables
+//1. Callback in asynchronous functions
+//2. Higher oder functions
+//3. Closures
+//4. Event Listeners
 
 // const hello = function () {
 //   console.log("hello");
