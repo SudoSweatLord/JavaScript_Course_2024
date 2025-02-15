@@ -1,4 +1,58 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+#myH1 {
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: antiquewhite;
+}
+#display {
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  /* color: gainsboro */
+}
+#controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: background-color, transform 0.3s ease;
+}
+#startBtn {
+  background-color: green;
+}
+#startBtn:hover {
+  background-color: hsla(120, 100%, 25%, 0.295);
+  transform: scale(1.06);
+}
+#stopBtn {
+  background-color: red;
+}
+#stopBtn:hover {
+  background-color: hsla(0, 100%, 50%, 0.349);
+  transform: scale(1.06);
+}
+#resetBtn {
+  background-color: yellow;
+}
+
+#resetBtn:hover {
+  background-color: hsla(60, 100%, 50%, 0.123);
+  transform: scale(1.06);
 }
