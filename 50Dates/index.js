@@ -1,3 +1,6 @@
+// Date objects = Objects that contain values that represent dates and times
+// these date objects can be changed and formatted
+
 // const date = new Date(2024, 1, 1, 2, 3, 4, 5);
 // console.log(date);
 
