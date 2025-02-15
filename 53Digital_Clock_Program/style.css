@@ -1,4 +1,45 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, #f00f17, #9c35d8, #ebf18a, #ffdde1);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  overflow: hidden;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#clock-container {
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock {
+  z-index: 10;
+  width: 100%;
+  font-family: monospace;
+  font-size: 6.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgb(129, 129, 129);
+  /* backdrop-filter: blur(50px); */
 }
